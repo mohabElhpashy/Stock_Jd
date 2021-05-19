@@ -29,10 +29,9 @@ import Prof from "./Components/IntroductionComponent/Introduction"
     
       return (  
         <div className="App">
-           <Router>
+           {/* <Router>
           <Route path="/" exact >
             <Login log={log}/>
-            {/* </> */}
 
         
           </Route>
@@ -40,7 +39,8 @@ import Prof from "./Components/IntroductionComponent/Introduction"
 
 
           <Protect path="/content" component={Prof} IsAuth={localStorage.getItem("gitaccess")}/>
-      </Router> 
+      </Router>  */}
+      <Prof/>
 {/*        
       <input type="file" onChange={event=>setfile(event.target.files[0])}/>
       <button onClick={Upload}>Upload</button> */}

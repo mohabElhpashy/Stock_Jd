@@ -338,6 +338,14 @@
     left: 196px;
     top: 150px;
     color: white;  }
+    .Line2{
+        margin: auto;
+
+    width: 500px;
+    position: absolute;
+    bottom: 0px;
+    top:50%
+    }
             
     .SocialMediaDiv{
         width:200px;

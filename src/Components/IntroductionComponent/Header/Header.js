@@ -8,7 +8,7 @@
     function Header() {
         return (
             <header className={Styles.Header}>
-                <div style={{display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'bold',fontSize:'2rem',marginLeft:'90px'}} ><img style={{width:'34px'}} src={Chart} alt=''/>Chartful</div>
+                <div className={Styles.Chaart}  ><img className={Styles.Chaartimage}  src={Chart} alt=''/>Chartful</div>
                 <div style={{display:'flex',marginRight:'90px'}}>
                 <button className={Styles.Signup}><img src={D} style={{width:'25px',height:"15px"}} alt=''/>Sign up</button>
                 

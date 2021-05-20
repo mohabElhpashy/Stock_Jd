@@ -28,6 +28,8 @@
     import Ins from '../../Images/IntroductionImages/Inst.svg'
     import Linked from '../../Images/IntroductionImages/Linked.svg'
     import Twiit from '../../Images/IntroductionImages/Twiit.svg'
+    // import Line2 from '../../Images/IntroductionImages/Line2.svg'
+
 
 
 
@@ -53,7 +55,7 @@
             <div className={Styles.Main}>
                 <Header/>
                 
-                <div className={Styles.FirstContent}>
+                {/* <div className={Styles.FirstContent}>
                 <div className={Styles.Content}> 
                 <div className={Styles.OURSERVICeee}></div>
         <p className={Styles.pp}>The eyes and <br/> ears of the fellow trader </p><br/>
@@ -87,9 +89,9 @@
 <p>Chartful hosts a weekly vote amongst members regarding the top stocks they have on watch for the following week. The top voted stocks are put into a community built weekly watchlist. This provides insight into what other traders have their eyes on at the start of each trading week. Work together to beat the odds of the market. Utilize the Chartful community as a resource to assist you in your trading career.</p>
                         </div>
                         </div>
-                        </div>
+                        </div> */}
 {/* ------------------------------------------------------------------------------------------------- */}
-
+{/* 
                         <div className={Styles.OurService2}>
                      
 
@@ -106,10 +108,10 @@
                         <img className={Styles.Shadow2} src={AnotherShadow} alt=''/>
 
                         </div>  
-                        <img style={{marginTop:'-175px'}} src={Line} alt=''/>
+                        <img style={{marginTop:'-175px'}} src={Line} alt=''/> */}
 {/* ------------------------------------------------------------------------------------------------- */}
 
-<div className={Styles.OurServiceOne3}>
+{/* <div className={Styles.OurServiceOne3}>
                         
 <img className={Styles.Shadow3} src={Shadoww3} alt=''/>
 
@@ -121,9 +123,9 @@
 </p>
                         </div>
                         </div>
-                        </div>
+                        </div> */}
 {/* ------------------------------------------------------------------------------------------------- */}
-<div className={Styles.OurServiceOne4}>
+{/* <div className={Styles.OurServiceOne4}>
                         
 <img className={Styles.Shadow4} src={Shadoww4} alt=''/>
 
@@ -138,9 +140,9 @@
                         </div>
                         </div>
                         <img style={{marginTop:'-175px'}} src={Line} alt=''/>
-                        {/* ------------------------------------------------------------------------------------------------- */}
+{/* ------------------------------------------------------------------------------------------------- */}
 
-<div className={Styles.OurServiceOne3}>
+{/* <div className={Styles.OurServiceOne3}>
                         
                         
                  <div className={Styles.Blockone3}>
@@ -150,9 +152,9 @@
                 <p>Want to see a chart? Want to ask a question? No problem! Stay connected with the Chartful team and other traders through our on-site chatroom. Request technical analysis with ease through our chart request feature. </p>
                     </div> </div> 
                     <img className={Styles.Cicle} src={Cicle }alt=''/>
-                    </div>
+                    </div> */} 
   {/* ------------------------------------------------------------------------------------------------- */}
-                        <div className={Styles.Dive_into_Chartul}>
+                        {/* <div className={Styles.Dive_into_Chartul}>
                         <div className={Styles.MyBorder}></div>
                             <h2>Dive into Chartul</h2>
                         </div>
@@ -164,11 +166,12 @@
                      <img   className={Styles.PurCicle}src={PurCicle} alt=''/>
                      <img   className={Styles.BlueCicle}src={BlueCicle} alt=''/>
 
-                </div>
+                </div> */}
     {/* -------------------------------------------------------------------- */}
-            <div className={Styles.Footer}>
+            {/* <div className={Styles.Footer}>
             <img className={Styles.FooterShadow} src={FooterShadow} alt=""/>
             <img className={Styles.Footerimg} src={Footer} alt=""/>
+
             <div>
                 <h1 style={{textAlign:'left'}}>Contact Us</h1>
              <h3 style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
@@ -188,8 +191,7 @@
                   <h2><img src={Linked} alt=''/></h2>
                   </div>
             </div> 
-            
-            </div>
+            </div> */}
 
             </div>
         )

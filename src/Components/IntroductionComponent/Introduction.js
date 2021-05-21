@@ -55,22 +55,21 @@
             <div className={Styles.Main}>
                 <Header/>
                 
-                {/* <div className={Styles.FirstContent}>
+                <div className={Styles.FirstContent}>
                 <div className={Styles.Content}> 
                 <div className={Styles.OURSERVICeee}></div>
-        <p className={Styles.pp}>The eyes and <br/> ears of the fellow trader </p><br/>
-    <div style={{marginTop:'-39px', fontWeight:'bold'}}>Chartful provides technical analysis that will up your trading <br/>to the next level<br/>
+       <h1 className={Styles.pp}>The eyes and <br/> ears of the fellow trader </h1><br/>
+    <div className={Styles.pSmall} >Chartful provides technical analysis that will up your trading <br/>to the next level<br/>
             <button className={Styles.getstart}>Get started</button>
     </div>
-        </div>
         
 
-                <img src={Intro} alt='introduction' style={{width:"880px",height: '655px'}}/>
+                </div>
+                <img src={Intro} alt='introduction' />
 
                 </div>
-            
-            
-            <div className={Styles.Secondintro}>
+{/*----------------------------------------------------------------------------------------------  */}
+            {/* <div className={Styles.Secondintro}>
                 <img src={One} alt=''/>
                 <img src={Arrow} alt=''/>
                 <img src={Six} alt=''/>
@@ -80,7 +79,7 @@
                     <div className={Styles.OurServiceOne}>
                         <div className={Styles.OURSERVICee}></div>
                     <h2 className={Styles.OURSERVICe}>Our Service</h2>
-
+            
                         <img className={Styles.Shadow} src={OurServiceShadow} alt=''/>
                         <div className={Styles.Blockone}>
                         <img  src={OurServiceOne} alt=''/>

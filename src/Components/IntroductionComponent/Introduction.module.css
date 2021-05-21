@@ -1,380 +1,468 @@
-    .Main{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width: 100%;
-        }
-    .FirstContent{
-    
-        position: relative;
-        height: 655px;
-
-    }
-    .FirstContent img{
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-    .Content{
-        width:522px;
-        background-color: gray;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        right: 713px;
-        position: absolute;
-        top: 50%;
-        bottom: 50%;
-        flex-direction: column;
-        
-
-    }
-
-    .pp{
-        font-size: 40px;
-        font-weight: bold;
-    }
-    .pp::before{
-        content: 'Chartful ';
-        color: #15A6FF;
-        }
-        .getstart{
-            Width: 129px;
-        background-color: #15A6FF;
-        color: white;
-        Height: 48px;
-        margin-right: 10px;
-    border-radius: 54px;
-        outline: none;
-        border: 1px solid #15A6FF ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 1rem;
-        }
-        .getstart:hover{
-            cursor: pointer;
-        }
-        .Secondintro{
-            background-color: #F4FBFF;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            
-            width: 85%;
-            height: 200px;
-            margin: auto;
-            margin-top: 40px;
-
-        }
-        .Secondintro img{
-            width: 88px;
-            
-        }
-        .OurServiceOne{
-            position: relative;
-            width: 100%;
-            height: 500px;
-            /* background-color: red; */
-        }
-        .Shadow{
-            position: absolute;
-            top: 0px;
-            left: 0;
-            width: 400px;
-            height: 501px;
-        }
-        .Blockone{
-        width: 87%;
-            
-            position: absolute;
-            left: 156px;
-            top: 115px;   
-            /* background-color: gray; */
-            display: flex;
-            justify-content: space-around;
-            
-        }
-        .Blockone img{
-            width: 500px;
-            position: absolute;
-            left: 0px;
-            top: 0px;   
-        }
-        .Blockone div{
-            width: 420px;
-            margin-left: 400px;
-        }
-        .OURSERVICe{
-            width: 140px;
-            position: absolute;
-            left: 50%;
-            top: 22px;
-        
-
-        }
-        .OURSERVICee{
-            border: 1px solid #15A6FF;
-        width: 140px;
-        height: 50px;
-        position: absolute;
-        left: 50%;
-        top: 29px;
-        border-radius: 12rem 3rem;
-        transform: rotate( -6deg);
-        }
-        .OURSERVICeee{
-            border: 1px solid #15A6FF;
-            width: 180px;
-            height: 50px;
-            position: absolute;
-            /* left: 50%; */
-            top: -90px;
-            left: 40px;
-            border-radius: 12rem 3rem;
-            transform: rotate( -6deg)
-        }
-        /*---------------------------------------------------------------*/
-
-        .OurService2{
-            position: relative;
-            width: 100%;
-            height: 500px;
-            /* background-color: red; */
-        }
-        .Shadow2{
-            position: absolute;
-            top: -51px;
-            right: 0;
-            width: 400px;
-            height: 501px;
-        }
-        .Blockone2{
-            width: 87%;
-            
-            position: absolute;
-            right:  156px;
-            top: 115px;   
-            display: flex;
-            justify-content: space-around;
-            
-        }
-        .Blockone2 img{
-            width: 500px;
-            position: absolute;
-            right: 40px;
-            top: 0px;   
-        }
-
-        .Blockone2 div{
-            width: 420px;
-            margin-right: 400px;
-        } 
-        .Shadow3{
-            position: absolute;
-            top: 69px;
-            left: 0;
-            width: 400px;
-            height: 379px;
-        }
-        
-
-        .OurServiceOne3{
-            position: relative;
-            width: 100%;
-            height: 500px;
-            margin-top: -90px;
-        }
-        .Blockone3{
-            width: 87%;
-            
-            position: absolute;
-            left: 156px;
-            top: -47px;
-            /* background-color: gray; */
-            display: flex;
-            justify-content: space-around;
-            
-        }
-        .Blockone3 img{
-            width: 550px;
-            position: absolute;
-            left: 0px;
-            top: -20px;
-            }
-        .Blockone3 div{
-            width: 420px;
-            margin-left: 400px;
-            margin-top: 73px;
-            text-align: left;
-            }
-
-    /*-------------------------------------------------------------------------------------------------*/
-
-
-
-            .Shadow4{
-                position: absolute;
-                top: -65px;
-                right: 0;
-                width: 390px;
-                height: 496px;
-            }
-            
-        
-            .OurServiceOne4{
+            .Main{
+                display: flex;
+                flex-direction: column;
                 position: relative;
                 width: 100%;
-                height: 500px;
-                /* margin-top: -90px; */
-            }
-            .Blockone4{
-                width: 87%;
-                
-                position: absolute;
-                left: 156px;
-                top: -47px;
-                /* background-color: red; */
+                height: 655px;
+                }
+            .FirstContent{
+            
+                position: relative;
+                height: 655px;
+                width: 100%;
                 display: flex;
-                justify-content: space-around;
-                
+
             }
-            .Blockone4 img{
-                width: 550px;
-                position: absolute;
-                right: 123px;
-                top: 27px;
-                }
-            .Blockone4 div{
-                width: 420px;
-                margin-right: 655px;
-                margin-top: 106px;
+            .FirstContent img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 61%;
+            }
+            .Content{
+                width:33%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 209px;
                 text-align: left;
+                flex-direction: column;
+                /* background-color: red; */
+                
+
+            }
+            /* .OURSERVICeee{
+                border: 1px solid red;
+                width: 180px;
+                height: 50px;
+                
+                border-radius: 12rem 3rem;
+                transform: rotate( -6deg)
+            } */
+
+            
+             .pp{
+                font-size: 40px;
+                font-weight: bold;
+            }
+            .pp::before{
+                content: '  Chartful .';
+                color: #15A6FF;
+                border: 1px solid #15A6FF;
+                    width: 180px;
+                    height: 50px;
                 }
-                .Cicle{
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
-                    width: 230px;
+                .pp::before{
+                    
+                    
+                    border-radius: 12rem 3rem;
+                    transform: rotate( -6deg)
                 }
-        /*-----------------------------------------------------------------------------*/ 
-        .Content_Vid{
-            background-color: #F4FBFF;
-            margin: auto;
-            width: 70%;
-            height: 440px;
-            border-radius:7px ;
+            
+                
+                .pSmall{
+                    margin-top:-39px;
+                    font-weight:bold;
+                    font-size:14px
+                }
+                .getstart{
+                    Width: 129px;
+                background-color: #15A6FF;
+                color: white;
+                Height: 48px;
+                margin-right: 10px;
+            border-radius: 54px;
+                outline: none;
+                border: 1px solid #15A6FF ;
             display: flex;
             justify-content: center;
             align-items: center;
-            position: relative;
-            }    
-            .IMAgevid{
-                width: 560px;
+            font-weight: bold;
+            font-size: 1rem;
+                }
+                .getstart:hover{
+                    cursor: pointer;
+                }
+    /*--------------------------------------------------------------------------------------------------*/         
+                .Secondintro{
+                    background-color: #F4FBFF;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    
+                    width: 85%;
+                    height: 200px;
+                    margin: auto;
+                    margin-top: 40px;
+
+                }
+                .Secondintro img{
+                    width: 88px;
+                    
+                }
+                .OurServiceOne{
+                    position: relative;
+                    width: 100%;
+                    height: 500px;
+                    /* background-color: red; */
+                }
+                .Shadow{
+                    position: absolute;
+                    top: 0px;
+                    left: 0;
+                    width: 400px;
+                    height: 501px;
+                }
+                .Blockone{
+                width: 87%;
+                    
+                    position: absolute;
+                    left: 156px;
+                    top: 115px;   
+                    /* background-color: gray; */
+                    display: flex;
+                    justify-content: space-around;
+                    
+                }
+                .Blockone img{
+                    width: 500px;
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;   
+                }
+                .Blockone div{
+                    width: 420px;
+                    margin-left: 400px;
+                }
+                .OURSERVICe{
+                    width: 140px;
+                    position: absolute;
+                    left: 50%;
+                    top: 22px;
+                
+
+                }
+                .OURSERVICee{
+                    border: 1px solid #15A6FF;
+                width: 140px;
+                height: 50px;
                 position: absolute;
-                z-index: 1;                
+                left: 50%;
+                top: 29px;
+                border-radius: 12rem 3rem;
+                transform: rotate( -6deg);
+                }
+                
+                /*---------------------------------------------------------------*/
 
-            }
-            .IMAgePlay{
-                position: absolute;
-                z-index: 11;
-                width: 110px;
+                .OurService2{
+                    position: relative;
+                    width: 100%;
+                    height: 500px;
+                    /* background-color: red; */
+                }
+                .Shadow2{
+                    position: absolute;
+                    top: -51px;
+                    right: 0;
+                    width: 400px;
+                    height: 501px;
+                }
+                .Blockone2{
+                    width: 87%;
+                    
+                    position: absolute;
+                    right:  156px;
+                    top: 115px;   
+                    display: flex;
+                    justify-content: space-around;
+                    
+                }
+                .Blockone2 img{
+                    width: 500px;
+                    position: absolute;
+                    right: 40px;
+                    top: 0px;   
+                }
 
-            }
-            .PurCicle{
-                position: absolute;
-                right: 0;
-                width: 120px;
-                bottom: 5px;
-                right: 140px;
-                z-index: 1px;
-            }
-            .BlueCicle{
-                position: absolute;
-                left: 158px;
-                width: 120px;
-                top: 20px;
-                right: 140px;
-                z-index: 1px;
-            }
+                .Blockone2 div{
+                    width: 420px;
+                    margin-right: 400px;
+                } 
+                .Shadow3{
+                    position: absolute;
+                    top: 69px;
+                    left: 0;
+                    width: 400px;
+                    height: 379px;
+                }
+                
 
-            .Dive_into_Chartul{
-                position: relative;
-            }
-            .MyBorder{
-                border: 1px solid #15A6FF;
-    width: 224px;
-    height: 50px;
-    position: absolute;
-    left: 42%;
-    top: 9px;
-    border-radius: 12rem 3rem;
-    transform: rotate( 
--6deg
-);
-            }
-   /*----------------------------------------------------------------------------------------------*/
-   
-   .Footer{
-       width: 100%;
-       /* background-color: red; */
-       position: relative;
-   }
-   .Footerimg {
-    top: 42px;
-    width: 500px;
-    position: absolute;
-    right: 259px;
-   }
-   .FooterShadow{
-    width: 100%;
-    position: absolute;
-    left: 0;
+                .OurServiceOne3{
+                    position: relative;
+                    width: 100%;
+                    height: 500px;
+                    margin-top: -90px;
+                }
+                .Blockone3{
+                    width: 87%;
+                    
+                    position: absolute;
+                    left: 156px;
+                    top: -47px;
+                    /* background-color: gray; */
+                    display: flex;
+                    justify-content: space-around;
+                    
+                }
+                .Blockone3 img{
+                    width: 550px;
+                    position: absolute;
+                    left: 0px;
+                    top: -20px;
+                    }
+                .Blockone3 div{
+                    width: 420px;
+                    margin-left: 400px;
+                    margin-top: 73px;
+                    text-align: left;
+                    }
 
-   }
-   .Footer div{
-    position: absolute;
-    left: 196px;
-    top: 150px;
-    color: white;  }
-    .Line2{
-        margin: auto;
+            /*-------------------------------------------------------------------------------------------------*/
 
-    width: 500px;
-    position: absolute;
-    bottom: 0px;
-    top:50%
-    }
-            
-    .SocialMediaDiv{
-        width:200px;
-        display:flex;
-        justify-content:space-around;
-        margin-left:-180px
-    }
-.SocialMediaDiv h2 {
-    width: 40px;
-    border: 1px solid white;
-    border-radius: 20px;
-}
-    /* .BorderOnSocial{
-        border: 1px solid white;
-        border-radius: 15px;
+
+
+                    .Shadow4{
+                        position: absolute;
+                        top: -65px;
+                        right: 0;
+                        width: 390px;
+                        height: 496px;
+                    }
+                    
+                
+                    .OurServiceOne4{
+                        position: relative;
+                        width: 100%;
+                        height: 500px;
+                        /* margin-top: -90px; */
+                    }
+                    .Blockone4{
+                        width: 87%;
+                        
+                        position: absolute;
+                        left: 156px;
+                        top: -47px;
+                        /* background-color: red; */
+                        display: flex;
+                        justify-content: space-around;
+                        
+                    }
+                    .Blockone4 img{
+                        width: 550px;
+                        position: absolute;
+                        right: 123px;
+                        top: 27px;
+                        }
+                    .Blockone4 div{
+                        width: 420px;
+                        margin-right: 655px;
+                        margin-top: 106px;
+                        text-align: left;
+                        }
+                        .Cicle{
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            width: 230px;
+                        }
+                /*-----------------------------------------------------------------------------*/ 
+                .Content_Vid{
+                    background-color: #F4FBFF;
+                    margin: auto;
+                    width: 70%;
+                    height: 440px;
+                    border-radius:7px ;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    }    
+                    .IMAgevid{
+                        width: 560px;
+                        position: absolute;
+                        z-index: 1;                
+
+                    }
+                    .IMAgePlay{
+                        position: absolute;
+                        z-index: 11;
+                        width: 110px;
+
+                    }
+                    .PurCicle{
+                        position: absolute;
+                        right: 0;
+                        width: 120px;
+                        bottom: 5px;
+                        right: 140px;
+                        z-index: 1px;
+                    }
+                    .BlueCicle{
+                        position: absolute;
+                        left: 158px;
+                        width: 120px;
+                        top: 20px;
+                        right: 140px;
+                        z-index: 1px;
+                    }
+
+                    .Dive_into_Chartul{
+                        position: relative;
+                    }
+                    .MyBorder{
+                        border: 1px solid #15A6FF;
+            width: 224px;
+            height: 50px;
+            position: absolute;
+            left: 42%;
+            top: 9px;
+            border-radius: 12rem 3rem;
+            transform: rotate( 
+        -6deg
+        );
+                    }
+        /*----------------------------------------------------------------------------------------------*/
         
-    }
-    .BorderOnSocial img{
-        margin-left: 120px;
-    } */
-            /* p{
-                font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 32px;
+        .Footer{
+            width: 100%;
+            /* background-color: red; */
+            position: relative;
+        }
+        .Footerimg {
+            top: 42px;
+            width: 500px;
+            position: absolute;
+            right: 259px;
+        }
+        .FooterShadow{
+            width: 100%;
+            position: absolute;
+            left: 0;
 
+        }
+        .Footer div{
+            position: absolute;
+            left: 196px;
+            top: 150px;
+            color: white;  }
+            .Line2{
+                margin: auto;
+
+            width: 500px;
+            position: absolute;
+            bottom: 0px;
+            top:50%
+            }
+                    
+            .SocialMediaDiv{
+                width:200px;
+                display:flex;
+                justify-content:space-around;
+                margin-left:-180px
+            }
+        .SocialMediaDiv h2 {
+            width: 40px;
+            border: 1px solid white;
+            border-radius: 20px;
+        }
+        /*--------------------------------------------------------------------------------------------------------*/
+        /*make it Responsive */   
+        @media screen  and (min-width:1024px){
+            .Content{
+                width: 41%;
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-left: 97px;
+    flex-direction: column;
+    text-align: left;
+            } 
+            .pp{
+                font-size: 33px;
+                font-weight: bold;
+            }
+        }
+    
+        @media screen and (max-width:1023px)
+        {
+            .Content{
+                width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+    flex-direction: column;
+    margin-top: -208px;
+            } 
+            .pp{
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .pSmall{
+                width: 99%;
+                font-size: 10px;
+                text-align: left;
+                margin-left: 104px;            }
+                .getstart{
+                    width: 83px;
+                    height: 31px;
+                    font-size: 13px;
+                }
 
-    color: #000000;
-            } */
+        }
+        @media screen  and (max-width:767px)
+        {
+           
+            .Content{
+                
+                    width: 44%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 18px;
+                    flex-direction: column;
+                    margin-top: -446px;
+            } 
+            .pp{
+                font-size: 16px;
+    font-weight: bold;
+            }
+            .pSmall{
+                width: 99%;
+                font-size: 6px;
+                text-align: left;
+                margin-left: 32px;
+                margin-top: -25px;         }
+                .getstart{
+                    width: 62px;
+    height: 23px;
+    font-size: 9px;
+                }
+        }
+        @media screen  and (max-width:645px){
+             
+            .Content{
+                
+                width: 44%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 18px;
+                flex-direction: column;
+                margin-top: -446px;
+        } 
+        }
+        @media screen  and (max-width:425px){
+           
+        }
